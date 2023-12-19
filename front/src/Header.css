@@ -1,0 +1,120 @@
+/* Header.css */
+
+body {
+    margin: 0; /* Remove default margin to prevent content from being hidden behind the header */
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #002F34;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    max-height: 70px;
+  }
+  
+.main-link-img {  
+  margin-left: 6.5%;
+}
+.main-icon {
+    max-width: 72px;
+  }
+  
+  
+  .button-type-a {
+    margin-right: 5%;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    min-height: 40px;
+    padding: 13px 48px 15px;
+    text-decoration: none;
+    background-color: #002F34;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    background-color: #FFFFFF;
+    border: solid 5px #FFFFFF;
+    border-radius: 4px;
+    color: #002F34;
+    padding: 10px 43px 8px 43px;
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+  
+.profile-link {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+    min-width: 15%;
+}
+
+.profile-link img {
+    max-width: 20px;
+}
+
+.profile-link a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold; 
+}
+
+
+.posts-list {
+  display: flex;
+  align-items: center;
+  gap: 8px; 
+  min-width: 8%;
+}
+
+.posts-list img {
+  max-width: 20px;
+}
+
+.posts-list a {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold; 
+}
+
+.favorite {
+    margin-right: 2.7%;
+    display: flex;
+    align-items: center;
+}
+
+.favorite img {    
+    max-width: 20px;
+}
+
+.message {    
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    margin-left: auto;
+    margin-right: 2.7%;
+
+    
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+
+.messege-icon svg {
+    transform: scale(1.5); /* Increase the size by 1.5 times */
+}
+

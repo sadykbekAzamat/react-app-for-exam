@@ -1,0 +1,177 @@
+
+.search-piece {
+    min-height: 250px;
+    width: 100%;
+    background-color: #F2F4F5;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-search {
+    width: 85%;
+    margin-top: auto;
+    align-self: center;
+    margin-bottom: 60px;
+}
+
+.enter-search-text {
+    width: 85%;
+    padding: 20px;
+    border: 2px solid #fff;  /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    font-size: 16px;
+}
+
+.form-search a {
+    min-width:  20%;
+    width: 20%;
+    background-color: #002F34;
+    color: #fff;
+    padding: 20px;    
+    font-weight: bold; 
+    text-decoration: none;
+    gap: 5px;
+}
+
+.search-icon {
+    align-self: center;
+    max-width: 20px;
+    margin-left: 10px;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.services h1 {
+    align-self: center;
+    margin-top: 40px;
+}
+
+.services-list {
+    width: 85%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); 
+    row-gap: 15px;
+    text-decoration: none;
+    column-gap: 36px;
+}
+
+.item-service {
+    display: flex;
+    flex-direction: column;
+    
+    text-decoration: none;
+}
+
+.item-service img {
+    align-self: center;
+    border-radius: 50%;
+    width: 90px;
+}
+
+.item-service h4 {    
+    text-decoration: none;
+    align-self: center;
+    text-align: center;
+}
+.img-yellow {
+    background-color: yellow;
+}
+
+.img-blue {
+    background-color:deepskyblue;
+}
+
+.img-gray {
+    background-color:aliceblue;
+}
+
+.img-pink {
+    background-color:pink;
+}
+.img-red {
+    background-color:red;
+}
+
+.img-white-yellow {
+    background-color:bisque;
+}
+
+.img-black-blue {
+    background-color:blue;
+}
+
+.img-white-blue {
+    background-color:aqua;
+}
+
+
+.about-us {
+    display: flex;
+    background-color: #cbf7ee;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+
+.main-icon {
+    align-self: center;
+    align-items: center;
+    min-width: 95px;
+    max-width: 96px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.about-us span {
+    max-width: 66%;
+    text-align: center;
+}
+
+.links {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.links span {
+    min-width: 60%;
+}
+
+.list-links {
+    margin-top: 15px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.link-icon {
+    align-self: center;
+    width: 30px;
+}
+a {
+    color: inherit; /* or set your desired color */
+    text-decoration: none; /* Remove the default underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover if desired */
+}

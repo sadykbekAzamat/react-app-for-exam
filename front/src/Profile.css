@@ -1,0 +1,78 @@
+.profile-main-div {
+    width: 100%;
+    padding-top: 72px;
+    min-height: 80vh;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.profile-main-head {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new-profile-second-div {
+    width: 86%;
+}
+
+.h2-profile-text-style {
+
+    color: rgb(0, 47, 52);
+    font-family: Geomanist;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 32px;
+    line-height: 1;
+}
+
+.button-type-b {
+    max-width: 250px;
+    margin-right: 5%;
+    box-sizing: border-box;
+    background-color: #002F34;
+    cursor: pointer;
+    min-height: 40px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    border: solid 5px #002F34;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 10px 43px 8px 43px;
+    text-align: center;
+  }
+
+  .postsSpawnPoint {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+.viewImagePost {
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 400px;
+    max-height: 400px;
+
+    border-radius: 10px;
+}
+
+.post-item {    
+    width: 86%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color:#F2F4F5;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.text-data-post {
+    margin-left: 10px;
+}
